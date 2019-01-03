@@ -499,5 +499,4 @@ for k in range(3):
     plt.title("Original Image")
     plt.imshow((np.squeeze(test_img[i])/255))
     
-    #no augmentation gets 98%, 91%, 93%
-    #augmentation gets 96%, 93%, 94.47%
+  
